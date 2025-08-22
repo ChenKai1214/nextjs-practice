@@ -46,7 +46,9 @@ export default async function UserPage({ params }: Params) {
             </ul>
 
             <br />
-            <a href="/" style={{ color: 'blue', textDecoration: 'underline' }}>← 回到首頁</a>
+            <Link href="/" style={{ color: 'blue', textDecoration: 'underline' }}>
+                ← 回到首頁
+            </Link>
         </main>
     );
 }
